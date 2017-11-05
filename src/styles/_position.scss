@@ -1,0 +1,117 @@
+.pos{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+
+    .pos-header{
+        height: 0.55rem;
+        background: #fff;
+        flex-grow: 0;
+        padding: 0.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        .iconfont{
+            font-size:0.2rem
+        }
+        .header{
+            margin-left: 0.15rem;
+        }
+        h2{
+            margin: -0.03rem;
+            font-size: 20px;
+            font-weight: normal;
+        }
+    }
+
+
+    .pos-body{
+        height: 100%;
+        overflow: scroll;
+        a{
+            margin-top: 10px;
+            width: 100%;
+            height: 0.28rem;
+            padding: 10px;
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hotCity{
+            margin-top: 10px;
+            background: #fff;
+            .hotCity__title{
+                width: 100%;
+                height:.4rem;
+                padding: 10px;
+                font-size: 14px;
+                font-weight: normal;
+                border-bottom: 1px solid #ccc;
+            }
+            .hotCity__list{
+                height: 0.45rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        
+        }
+        .letter{
+            margin-top: 10px;
+            background: #fff;
+            .letter__title{
+                width: 100%;
+                height:.4rem;
+                padding: 10px;
+                font-size: 14px;
+                font-weight: normal;
+                border-bottom: 1px solid #ccc;
+            }
+            .letter__list{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                li{
+                    width: 33%;
+                    height: 0.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-right: 1px solid #ccc;
+                    border-bottom: 1px solid #ccc;
+                }
+                li:nth-child(3n){
+                    border-right: none;
+                }
+            }
+            .city{
+                width: 100%;
+                h3{
+                    width: 100%;
+                    height: 0.34rem;
+                    padding:10px 14px;
+                    background: #f2f2f2;
+                    float: left;
+                }
+                ul{
+                    width: 33%;
+                    float: left;
+                    background: #fff;
+                    li{
+                        width: 100%;
+                        height: 0.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-right: 1px solid #ccc;
+                        border-bottom: 1px solid #ccc;
+                    }
+                }
+            }
+        }
+    }
+}

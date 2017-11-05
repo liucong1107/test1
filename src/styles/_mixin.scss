@@ -1,0 +1,84 @@
+
+
+
+.mine-gulp{
+    margin: 0 auto;
+    .mine-header{
+        
+        width: 100%;
+        -webkit-box-align: center;
+        padding: 0;
+        background: #fff;
+        flex-grow: 0;
+        padding: 0.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+        
+        .header{
+            margin-left: 0.15rem;
+        }
+       h2{
+           text-align: center;
+           margin: 0 auto;
+           flex: 2;
+           margin: -0.03rem;
+           font-size: 0.25rem
+        }
+        .iconfont{
+            width: 10%;
+
+        }
+
+    }
+
+    img{
+        
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .link{  //账户登录
+        width: 100%;
+        display: flex;
+        background: white;
+        border-bottom: 1px solid #000000;
+        margin-bottom:30px; 
+        p{
+            text-align: center;
+            flex:1;
+            
+        }
+    }
+   
+
+    .content{
+        top: 40%;
+        
+        width: 100%;
+        font-size: 2rem;
+        
+    }
+
+    //    这是底部按钮
+    
+    
+}
+
+.content{
+    .end{
+    position: fixed;
+    bottom: 0;
+    display: flex; 
+    width: 100%;
+    background: white;
+    height: 10%; 
+   
+    a{
+        flex:1;
+        text-align: center;
+        
+    }
+}
+}

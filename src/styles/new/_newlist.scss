@@ -1,0 +1,100 @@
+
+
+.content{
+    width: 100%;
+    height: auto;
+    margin-top: 0.58rem;
+    .buttons-tab .button.active {
+        color: red;
+    }
+   
+    .buttons-tab .button {
+        color: #5f646e;
+        font-size: .15rem;
+        width: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        border: 0;
+        border-radius: 0;
+        line-height: 1.5;
+    }
+   
+    .button.active, .button.active:active {
+       color:red;
+    }
+    .button {
+        border: 1px solid #0894ec;
+        color: #0894ec;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        border-radius: .25rem;
+        padding: 0.1rem 0;
+        margin: 0;
+        white-space: nowrap;
+        position: relative;
+        text-overflow: ellipsis; 
+        height:auto;
+    }
+    // neirong
+    .content-block {
+        margin: 0;
+        padding: 0;
+        color: #6d6d72;
+        .new__list2{
+            width: 100%;
+            height: auto;
+            margin-top:0.05rem;
+            background: #fff;
+            display: flex;
+            flex-wrap: wrap;
+           
+            li{
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                border: 3px solid #f2f2f2;
+                padding: 0.06rem;
+                .list_item1{
+                    width: 100%;
+                    min-height:1.6rem;
+                    display: flex;
+                    align-items: center;
+                
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                }
+                
+                p{
+                    font-size: 0.17rem;
+                    width: 100%;
+                    text-align: left;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .list_item2{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between!important;
+                    align-items: center;
+                    margin-top: 0.15rem;
+                    span:nth-child(1){
+                        font-weight: bold;
+                        font-size: 0.15rem;
+                        color: red;
+                    }
+                    span:nth-child(2){
+                        font-size: 0.1rem;
+                        color: #c1c1c1;
+                    }
+                }
+            }
+        }
+    }
+}

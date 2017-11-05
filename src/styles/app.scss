@@ -1,0 +1,22 @@
+
+
+@import './_base.scss';
+@import './_mixin.scss';
+@import './_reset.scss';
+@import './_common.scss';
+@import './_navs.scss';
+@import './_start.scss';
+@import './_glass.scss';
+@import './_content.scss';
+@import './_pop.scss';
+@import './_like.scss';
+@import './_pop-new.scss';
+@import './_position.scss';
+
+
+// 新品页样式
+@import './new/_newheader.scss';
+@import './new/_newlist.scss';
+
+// 详情页样式
+@import './intal/_intal.scss';

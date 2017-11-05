@@ -1,0 +1,30 @@
+
+@import './_base.scss';
+.start-navs{
+    
+    height: 1.45rem;
+    width: 100%;
+    display: flex;
+    a{
+        flex-grow: 1;flex-shrink: 1;
+        display: flex;flex-flow: column;
+        align-items: center;justify-content: space-around;
+        // font-size: 1.3em;
+       
+        span:first-child{
+            font-size: 1.5em;
+        }
+    }
+    a.active{
+        color: $base-color;
+    }
+    span.Smal{
+        font-size: 0.2rem;
+    }
+    
+    padding-top: .12rem;
+    background-color: #fff;
+    height: 1.333333rem;
+    -webkit-box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);
+    box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);
+}

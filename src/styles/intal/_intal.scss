@@ -1,0 +1,78 @@
+
+@import './_info.scss';
+@import './_look.scss';
+
+@import './intal/_page.scss';
+
+@import './intal/bottom.scss';
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#000;
+}
+
+.intal{
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    // 头部
+    .intal-header{
+        width: 100%;
+        height: 0.55rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        flex-grow: 0;
+        padding: 0.2rem;
+        align-items: center;
+        overflow: hidden;
+        .two-header{
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            .icon{
+                font-size:0.2rem
+            }
+        }
+    }
+   
+
+    .info_section{
+        width: 100%;
+        flex-shrink: 1;
+        flex-grow: 1;
+        height: 100%;
+        overflow: auto;
+        // 轮播
+        .swiper-container{
+            width: 100%;
+            .swiper-wrapper{
+                width: 100%;
+                .swiper-slide{
+                    width: 100%;
+                    background: #fff;
+                    img{
+                        width: 100%;
+                        height: 150px;
+                        margin: 50px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .info_bottom{
+        height: 0.6rem;
+        width: 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}
+
+
+    

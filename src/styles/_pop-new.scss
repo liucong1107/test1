@@ -1,0 +1,132 @@
+
+// 设置内容样式(三张图片)
+
+.Popcomponent{
+    width: 100%;
+     display: block;
+     overflow: hidden;
+    padding: 0.025rem 0 0.025rem  0;
+    img{
+        display: block;
+    }
+
+    h4{
+        margin: 0;
+        display: flex;
+        background: white;
+        height: 0.2rem;
+        align-items: center;
+        justify-content: space-between;
+        
+        span{
+            margin-left: 0.05rem;
+            display: flex;
+            a{
+                display: block;
+                width: 0.025rem;
+                height: 0.08;background: red;
+                border-radius: 2px;
+                margin-right: 5px
+            }
+        }
+        a{
+            width: 47px;
+            color:gray;
+            margin-right: 10px;
+            font-weight: normal;
+            font-size: 13px;
+        }
+    }
+   
+
+   span{
+    width: 100%;
+        img{
+            display: block;
+            width:100% 
+        }
+    }
+
+    ul{
+        width: 100%;
+        // display: flex;
+        padding-bottom:10px; 
+        
+
+        li:nth-child(1){
+            padding-top:60px;
+            border-right:1px solid gray;  
+            width: 50%;
+            height: 256px;
+            float: left;
+            text-align: center;
+            align-items: center;
+            background: white; 
+            flex: 1 1;
+            
+            img div{
+                margin-top:8px; 
+            }
+            img{        
+                margin: 0 auto;
+                width: 90%;
+            }
+            p{
+                color: gray;
+                font-size: 12px;
+                margin-top:0; 
+                margin-bottom: 6px;
+            }
+        }
+
+        li:nth-child(2){
+            width: 50%;
+            height: 128px;
+            float: left;
+            text-align: center;
+            align-items: center;
+            background: white; 
+            div{
+                margin-top:8px; 
+            }
+            img{        
+                margin: 0 auto;
+                width: 90%;
+            }
+            p{
+                color: gray;
+                font-size: 12px;
+                margin-top:0; 
+                margin-bottom: 6px;
+            }
+        }
+
+        li:nth-child(3){
+            border-top:1px solid gray; 
+            width: 50%;
+            height: 128px;
+            float: left;
+            text-align: center;
+            align-items: center;
+            background: white; 
+            // justify-content: flex-end;
+            div{
+                margin-top:8px; 
+            }
+            img{        
+                        margin: 0 auto;
+                       width: 90%;
+            }
+            p{
+                color: gray;
+                font-size: 12px;
+                margin-top:0; 
+                margin-bottom: 6px;
+            }
+            p:hover{
+                background: gray;
+            }
+        }
+
+    }
+}

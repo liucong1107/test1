@@ -1,0 +1,40 @@
+
+
+.info_bottom{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    ul{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .Car-bottom{
+        height: 100%;
+        width: 30%;
+        background: orange;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Near-bottom{
+        height: 100%;
+        width: 40%;
+        background: red;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
